@@ -1,0 +1,169 @@
+@import"variables";
+@import "generales";
+@import "_fuentes";
+@import "navMenu";
+@import "carrousel";
+
+@import "botonFlotante";
+@import "footer";
+@import "mediaQuery";
+
+
+
+
+
+
+.card {
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+	.div__linkVideo {
+    width: 75%;
+    height: 50vh;
+    align-items: center;
+	}
+
+	.div__listaIngredientes {
+    color: #ca785a;
+	}
+}
+
+/* Pagina Receta */
+.sinEstilo{
+    list-style: none;
+    text-decoration: underline;
+}
+
+
+/* Pagina Galeria */
+.animacionLogo:hover {
+    animation-duration: 5s;
+    animation-name: animLogo;
+    animation-iteration-count: infinite;
+    transition: 1.5s;
+    transform:rotate3d();
+    border-radius: 70%;
+}
+
+@keyframes animLogo{
+    from {
+        -webkit-transform: rotate(0deg);
+        transform: rotateY(0deg);
+    }
+    50%{
+        -webkit-transform: rotate(180deg);
+        transform: rotateY(180deg);
+    } to {
+        -webkit-transform: rotate(360deg);
+        transform: rotateY(360deg);
+        }
+}
+/* fin pag galeria */
+
+/* Pag nosotros */
+.main__fondoNosotros {
+    background-image: url(../img/FondoNosotros1.jpg);
+    background-size: cover;
+    background-position: center;
+	.main_textoNosotros {
+		text-align: center;
+		margin-left: 25%;
+		margin-right: 25%;
+		margin-bottom: 10px;
+		list-style: none;
+	}
+}
+
+
+.textoUbicanos{
+    font-size: 14px;
+    margin-right: 8vh;
+    margin-left: 4vh;
+    color: coral;
+    text-align: center;
+}
+
+
+/* pag contacto */
+
+.TamañoIco {
+    height: 64px;
+    width: 64px;
+}
+
+.mapa__link {
+    width:600px;
+    height:450px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;        
+}
+
+
+.formulario{
+    margin-right: 4vh;
+    .tituloFormulario {
+        margin-top: 30px;
+        margin-right: 4vh;
+        text-align: center;
+    }
+    .tabla__form {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        background-attachment: fixed;
+        background-image: url(../img/formulario.jpg);
+        background-size: 100% 100%;
+        color: blanchedalmond;
+    }
+}
+#container {
+
+    background-image: url(../img/newsletter.png);
+    box-shadow: 0 15px 30px 1px rgba(128, 128, 128, 0.31);
+    text-align: center;
+    border-radius: 5px;
+    margin: 3em auto;
+    height: 40vh;
+    width: 100%;
+    padding: 2em;
+}
+.titulo {
+    font-family: themillon;
+    color: #ff7f50;
+    text-align: center;
+    font-size: 60px;
+    margin-top: auto;
+	.titulo_p{
+    color: #ca785a;
+    font-size: large;
+	}
+}
+
+hr {
+    margin-left: 25%;
+    margin-right: 25%;
+    color: black;
+}
+
+.email{
+    margin-bottom: 5px;
+}
+h4 {
+    margin-top: 2%;
+    margin-bottom: 2rem;
+    text-decoration: underline;
+    color: #ca785a;
+    font-size: larger;
+}
+.h4--modificador{
+    margin-top: 3vh;
+    margin-left: 4vh;
+    margin-bottom: 4vh;
+    text-align: left;
+    text-decoration: none;
+}
+
+
+
+

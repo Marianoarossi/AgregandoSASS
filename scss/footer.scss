@@ -1,0 +1,32 @@
+
+.footer__listaRedes {
+    list-style: none;
+    display: flex; 
+	.footer__itemsL {
+		list-style: none;
+		margin-left: 20px;
+		margin-right: 20px;
+    }	
+	.footer__logoRedes {
+    width: 32px;
+    height: 32px;
+    align-items: stretch;
+    margin-top: 2vh;
+    }
+    .footer__bannerLogo {
+    width: 200px;
+    margin-top: 2vh;
+}
+}
+.footer__lista {
+    margin-top: 2vh;
+    list-style: none;
+    text-align: center;
+}
+.footer__bannerLogo {
+    width: 200px;
+    margin-top: 2vh;
+}
+.ListaRED {
+    list-style: none;
+}
