@@ -1,9 +1,9 @@
 
 .footer__listaRedes {
-    list-style: none;
+    list-style: $sinVineta;
     display: flex; 
 	.footer__itemsL {
-		list-style: none;
+		list-style: $sinVineta;
 		margin-left: 20px;
 		margin-right: 20px;
     }	
@@ -21,12 +21,12 @@
 .footer__lista {
     margin-top: 2vh;
     list-style: none;
-    text-align: center;
+    text-align: $ubicacion;
 }
 .footer__bannerLogo {
     width: 200px;
     margin-top: 2vh;
 }
 .ListaRED {
-    list-style: none;
+    list-style: $sinVineta;
 }

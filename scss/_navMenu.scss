@@ -1,7 +1,7 @@
 .grid {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: $ubicacion;
+    justify-content: $ubicacion;
     margin-bottom: 2vh;
 }
 .nav__logo{

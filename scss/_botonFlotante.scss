@@ -4,10 +4,10 @@
     font-size: 16px; /* Cambiar el tamaño de la tipografia */
     text-transform: uppercase; /* Texto en mayusculas */
     font-weight: bold; /* Fuente en negrita o bold */
-    color: #ffffff; /* Color del texto */
+    color: $colorTextBoton; /* Color del texto */
     border-radius: 5px; /* Borde del boton */
     letter-spacing: 2px; /* Espacio entre letras */
-    background-color:coral; /* Color de fondo */
+    background-color:$colorFuente; /* Color de fondo */
     padding: 18px 30px; /* Relleno del boton */
     position: fixed;
     bottom: 40px;

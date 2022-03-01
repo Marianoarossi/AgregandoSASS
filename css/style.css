@@ -48,13 +48,13 @@
   /* Texto en mayusculas */
   font-weight: bold;
   /* Fuente en negrita o bold */
-  color: #ffffff;
+  color: White;
   /* Color del texto */
   border-radius: 5px;
   /* Borde del boton */
   letter-spacing: 2px;
   /* Espacio entre letras */
-  background-color: coral;
+  background-color: #ff7f50;
   /* Color de fondo */
   padding: 18px 30px;
   /* Relleno del boton */
@@ -110,7 +110,7 @@
   #menuNav {
     margin: 2vh; }
   #Enunciado {
-    text-align: center; } }
+    text-align: ubicacion; } }
 
 @media (min-width: 360px) and (max-width: 784px) {
   .menureceta__img {
@@ -150,7 +150,7 @@
     height: 50vh;
     align-items: center; }
   .card .div__listaIngredientes {
-    color: #ca785a; }
+    color: #ff7f50; }
 
 /* Pagina Receta */
 .sinEstilo {
@@ -194,7 +194,7 @@
   font-size: 14px;
   margin-right: 8vh;
   margin-left: 4vh;
-  color: coral;
+  color: #ff7f50;
   text-align: center; }
 
 /* pag contacto */
@@ -241,7 +241,7 @@
   font-size: 60px;
   margin-top: auto; }
   .titulo .titulo_p {
-    color: #ca785a;
+    color: #ff7f50;
     font-size: large; }
 
 hr {
@@ -256,7 +256,7 @@ h4 {
   margin-top: 2%;
   margin-bottom: 2rem;
   text-decoration: underline;
-  color: #ca785a;
+  color: #ff7f50;
   font-size: larger; }
 
 .h4--modificador {

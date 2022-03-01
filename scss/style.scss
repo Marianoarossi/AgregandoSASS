@@ -14,17 +14,17 @@
 
 
 .card {
-    justify-content: center;
-    align-items: center;
+    justify-content: $ubicacion;
+    align-items: $ubicacion;
     margin-top: 5%;
 	.div__linkVideo {
     width: 75%;
     height: 50vh;
-    align-items: center;
+    align-items: $ubicacion;
 	}
 
 	.div__listaIngredientes {
-    color: #ca785a;
+    color: $colorFuente;
 	}
 }
 
@@ -64,13 +64,13 @@
 .main__fondoNosotros {
     background-image: url(../img/FondoNosotros1.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: $ubicacion;
 	.main_textoNosotros {
-		text-align: center;
+		text-align: $ubicacion;
 		margin-left: 25%;
 		margin-right: 25%;
 		margin-bottom: 10px;
-		list-style: none;
+		list-style: $sinVineta;
 	}
 }
 
@@ -79,8 +79,8 @@
     font-size: 14px;
     margin-right: 8vh;
     margin-left: 4vh;
-    color: coral;
-    text-align: center;
+    color:$colorFuente;
+    text-align: $ubicacion;
 }
 
 
@@ -94,7 +94,7 @@
 .mapa__link {
     width:600px;
     height:450px;
-    text-align: center;
+    text-align: $ubicacion;
     margin-top: 10px;
     margin-bottom: 5px;        
 }
@@ -105,10 +105,10 @@
     .tituloFormulario {
         margin-top: 30px;
         margin-right: 4vh;
-        text-align: center;
+        text-align: $ubicacion;
     }
     .tabla__form {
-        text-align: center;
+        text-align: $ubicacion;
         margin-left: auto;
         margin-right: auto;
         background-attachment: fixed;
@@ -121,7 +121,7 @@
 
     background-image: url(../img/newsletter.png);
     box-shadow: 0 15px 30px 1px rgba(128, 128, 128, 0.31);
-    text-align: center;
+    text-align: $ubicacion;
     border-radius: 5px;
     margin: 3em auto;
     height: 40vh;
@@ -130,12 +130,12 @@
 }
 .titulo {
     font-family: themillon;
-    color: #ff7f50;
-    text-align: center;
+    color: $colorFuente;
+    text-align: $ubicacion;
     font-size: 60px;
     margin-top: auto;
 	.titulo_p{
-    color: #ca785a;
+    color:$colorFuente ;
     font-size: large;
 	}
 }
@@ -143,7 +143,7 @@
 hr {
     margin-left: 25%;
     margin-right: 25%;
-    color: black;
+    color: $colorLinea;
 }
 
 .email{
@@ -153,7 +153,7 @@ h4 {
     margin-top: 2%;
     margin-bottom: 2rem;
     text-decoration: underline;
-    color: #ca785a;
+    color:$colorFuente;
     font-size: larger;
 }
 .h4--modificador{

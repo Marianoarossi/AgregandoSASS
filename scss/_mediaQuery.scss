@@ -13,7 +13,7 @@
             margin: 2vh;
         }
         #Enunciado{
-            text-align: center;
+            text-align: ubicacion;
         }
     }
 
@@ -29,11 +29,11 @@
         object-fit: cover;
         box-shadow: 4px 6px 16px 3px rgba(82, 64, 64, 0.45);
     }
-     #MenuBar{
-     display:none;
-     }   
-     #container {
-     height: 45vh;
+    #MenuBar{
+    display:none;
+    }   
+    #container {
+    height: 45vh;
     }
     .btn-flotante {
         font-size: 14px;
@@ -42,14 +42,14 @@
         right: 10px;
         }
 
-     .main_textoNosotros{
+    .main_textoNosotros{
         font-size:x-small;
-     }  
+    }  
      /* pagina contactos */
-     .mapa__link {
+    .mapa__link {
         width:40vh;
         height:40vh;
-        text-align: center;
+        text-align: $ubicacion;
         margin-top: 10px;
         margin-bottom: 5px;
             
