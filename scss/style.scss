@@ -3,7 +3,6 @@
 @import "_fuentes";
 @import "navMenu";
 @import "carrousel";
-
 @import "botonFlotante";
 @import "footer";
 @import "mediaQuery";
@@ -67,7 +66,7 @@
     background-position: $ubicacion;
 	.main_textoNosotros {
 		text-align: $ubicacion;
-		margin-left: 25%;
+		margin-left: 15%;
 		margin-right: 25%;
 		margin-bottom: 10px;
 		list-style: $sinVineta;
@@ -92,8 +91,8 @@
 }
 
 .mapa__link {
-    width:600px;
-    height:450px;
+    width:45vh;
+    height:45vh;
     text-align: $ubicacion;
     margin-top: 10px;
     margin-bottom: 5px;        
