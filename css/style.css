@@ -219,17 +219,21 @@
     margin-bottom: 10px;
     list-style: none; }
 
+.textosweb, .textoUbicanos {
+  font-size: 20px;
+  color: #ff7f50;
+  text-align: justify; }
+
 .textoUbicanos {
   font-size: 14px;
   margin-right: 8vh;
   margin-left: 4vh;
-  color: #ff7f50;
   text-align: center; }
 
 /* pag contacto */
 .TamañoIco {
-  height: 64px;
-  width: 64px; }
+  width: 64px;
+  height: 64px; }
 
 .mapa__link {
   width: 45vh;

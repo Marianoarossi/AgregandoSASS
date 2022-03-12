@@ -69,17 +69,29 @@
 		list-style: $sinVineta;
 	}
 }
+//Extend
+.textosweb{
+    font-size: 20px;
+    color:$colorFuente;
+    text-align:justify;
+}
+
 .textoUbicanos{
+    @extend .textosweb;
     font-size: 14px;
     margin-right: 8vh;
-    margin-left: 4vh;
-    color:$colorFuente;
+    margin-left: 4vh;   
     text-align: $ubicacion;
 }
 /* pag contacto */
-.TamañoIco {
-    height: 64px;
+//Mixins 
+@mixin configAltoAncho{
     width: 64px;
+    height: 64px;
+}
+
+.TamañoIco {
+@include configAltoAncho;
 }
 .mapa__link {
     width:45vh;
@@ -104,6 +116,8 @@
         background-size: 100% 100%;
         color: blanchedalmond;
     }
+    
+
 }
 #container {
     background-image: url(../img/newsletter.png);
