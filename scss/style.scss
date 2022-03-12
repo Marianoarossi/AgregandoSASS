@@ -4,6 +4,7 @@
 @import "navMenu";
 @import "carrousel";
 @import "botonFlotante";
+@import "_social";
 @import "footer";
 @import "mediaQuery";
 
@@ -60,6 +61,8 @@
 /* fin pag galeria */
 
 /* Pag nosotros */
+
+
 .main__fondoNosotros {
     background-image: url(../img/FondoNosotros1.jpg);
     background-size: cover;
@@ -74,6 +77,7 @@
 }
 
 
+
 .textoUbicanos{
     font-size: 14px;
     margin-right: 8vh;
@@ -84,6 +88,7 @@
 
 
 /* pag contacto */
+
 
 .TamañoIco {
     height: 64px;
