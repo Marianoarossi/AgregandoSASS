@@ -3,7 +3,7 @@
 @import "generales";
 @import "_fuentes";
 @import "navMenu";
-@import "carrousel";
+@import "menu";
 @import "botonFlotante";
 @import "_social";
 @import "footer";
@@ -124,7 +124,7 @@
     background-image: url(../img/newsletter.png);
     box-shadow: 0 15px 30px 1px rgba(128, 128, 128, 0.31);
     text-align: $ubicacion;
-    border-radius: 5px;
+    border-radius: $cienpx - 95;
     margin: 3em auto;
     height: 40vh;
     width: 100%;
@@ -134,21 +134,20 @@
     font-family: themillon;
     color: $colorFuente;
     text-align: $ubicacion;
-    font-size: 60px;
+    font-size: $cienpx - 40;
     margin-top: auto;
 	.titulo_p{
     color:$colorFuente ;
     font-size: large;
 	}
 }
-
 hr {
     margin-left: 25%;
     margin-right: 25%;
     color: $colorLinea;
 }
 .email{
-    margin-bottom: 5px;
+    margin-bottom: $cienpx - 95;
 }
 h4 {
     margin-top: 2%;

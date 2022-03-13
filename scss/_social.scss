@@ -39,7 +39,7 @@ $redes:(
     youtube:red,
     instagram:purple
 );
-
+//uso de operadores
 @each $red,$color in $redes {
     .btn--#{$red}{
         background-color: $color;
