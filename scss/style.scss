@@ -1,3 +1,4 @@
+/*Importacion de partials*/
 @import"variables";
 @import "generales";
 @import "_fuentes";
@@ -8,6 +9,7 @@
 @import "footer";
 @import "mediaQuery";
 
+/*modificacion de clase de bootstrap */ 
 .card {
     justify-content: $ubicacion;
     align-items: $ubicacion;
@@ -22,7 +24,7 @@
 	}
 }
 
-/* Pagina Receta */
+/* Pagina Receta (se saca estilo de la lista) */
 .sinEstilo{
     list-style: none;
     text-decoration: underline;
@@ -56,7 +58,7 @@
 
 /* Pag nosotros */
 
-
+//usando anidamiento
 .main__fondoNosotros {
     background-image: url(../img/FondoNosotros1.jpg);
     background-size: cover;
@@ -75,7 +77,6 @@
     color:$colorFuente;
     text-align:justify;
 }
-
 .textoUbicanos{
     @extend .textosweb;
     font-size: 14px;
@@ -89,7 +90,6 @@
     width: 64px;
     height: 64px;
 }
-
 .TamañoIco {
 @include configAltoAncho;
 }
@@ -100,6 +100,7 @@
     margin-top: 10px;
     margin-bottom: 5px;        
 }
+//usando nesting 
 .formulario{
     margin-right: 4vh;
     .tituloFormulario {

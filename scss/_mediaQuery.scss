@@ -1,7 +1,6 @@
 /* Inicio de media Query Celular */
 /* Inicio de query pantallas de 1280px a 1400px */
 @media (min-width: 1280px) and (max-width:  1500px) {
-
     .btn-flotante {
         font-size: 14px;
         padding: 6px 19px;
@@ -16,7 +15,6 @@
             text-align: ubicacion;
         }
     }
-
 @media (min-width: 360px) and (max-width: 784px) {
     .menureceta__img {
         width: 7vh;
